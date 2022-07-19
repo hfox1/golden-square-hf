@@ -14,23 +14,3 @@ RSpec.describe StringBuilder do
   end
 end
 
-=begin 
-why did it suddenly work going from 
-it "outputs new string" do
-  string = StringBuilder.new
-  string = string.add("BB")
-  result = string.output
-  expect(result).to eq "BB"
-end
-
-to
-
- it "outputs new string" do
-    string = StringBuilder.new
-    string.add("BB")
-    result = string.output
-    expect(result).to eq "BB"
-  end
-
-  =end
-  
